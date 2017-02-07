@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CanvasView.h"
 
 @interface ViewController ()
 
@@ -17,7 +18,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+//    self.view.backgroundColor = [UIColor whiteColor];
+    CanvasView *view = [[CanvasView alloc]initWithFrame:self.view.bounds];
+    view.backgroundColor = [UIColor yellowColor];
+    [self.view addSubview:view];
 }
+
+
+
 
 
 - (void)didReceiveMemoryWarning {

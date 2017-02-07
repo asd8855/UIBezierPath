@@ -15,6 +15,7 @@
 		0910BC4A1E495F8500CC2415 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0910BC481E495F8500CC2415 /* LaunchScreen.storyboard */; };
 		0910BC551E495F8500CC2415 /* UIBezierPathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0910BC541E495F8500CC2415 /* UIBezierPathTests.m */; };
 		0910BC601E495F8500CC2415 /* UIBezierPathUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0910BC5F1E495F8500CC2415 /* UIBezierPathUITests.m */; };
+		0910BC721E49666300CC2415 /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0910BC711E49666300CC2415 /* CanvasView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0910BC5B1E495F8500CC2415 /* UIBezierPathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIBezierPathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0910BC5F1E495F8500CC2415 /* UIBezierPathUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIBezierPathUITests.m; sourceTree = "<group>"; };
 		0910BC611E495F8500CC2415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0910BC701E49666300CC2415 /* CanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
+		0910BC711E49666300CC2415 /* CanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				0910BC3E1E495F8500CC2415 /* AppDelegate.m */,
 				0910BC401E495F8500CC2415 /* ViewController.h */,
 				0910BC411E495F8500CC2415 /* ViewController.m */,
+				0910BC701E49666300CC2415 /* CanvasView.h */,
+				0910BC711E49666300CC2415 /* CanvasView.m */,
 				0910BC431E495F8500CC2415 /* Main.storyboard */,
 				0910BC461E495F8500CC2415 /* Assets.xcassets */,
 				0910BC481E495F8500CC2415 /* LaunchScreen.storyboard */,
@@ -278,6 +283,7 @@
 			files = (
 				0910BC421E495F8500CC2415 /* ViewController.m in Sources */,
 				0910BC3F1E495F8500CC2415 /* AppDelegate.m in Sources */,
+				0910BC721E49666300CC2415 /* CanvasView.m in Sources */,
 				0910BC3C1E495F8500CC2415 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
